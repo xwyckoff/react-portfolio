@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar({ currentPage, handlePageChange, username }) {
     return (
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3">
+        <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-3 shadow">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#home" onClick={() => handlePageChange('Home')}>{username}</a>
                 <ul className="navbar-nav">
