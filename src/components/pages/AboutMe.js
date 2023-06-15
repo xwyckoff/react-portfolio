@@ -7,7 +7,7 @@ export default function AboutMe() {
             <h1 className="display-4">About Me</h1>
             <img src={portrait} className="portrait rounded-circle float-left" alt="portrait"></img>
             <hr></hr>
-            <p className="lead">As the title said, my name's Xander! I'm an aspiring full stack software developer looking to persue a career in said field.</p>
+            <p className="lead">My name is Xander and I'm an aspiring full stack software developer looking to persue a career in developing applications.</p>
         </div>
     )
 }
