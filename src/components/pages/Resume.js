@@ -4,7 +4,7 @@ export default function Resume() {
     return (
         <div className="container">
             <h1 className="display-4 text-center">Resume</h1>
-            <button className="btn btn-outline-dark" href={resumeFile} download="Xander Wyckoff Resume" target='_blank'>Download my Resume</button>
+            <button className="btn btn-outline-dark" href={resumeFile} download="Xander Wyckoff Resume">Download my Resume</button>
             <ul className="list-group">
                 <figcaption className="display-6">Front-end Proficiencies</figcaption>
                 <li className="list-group-item">HTML</li>
