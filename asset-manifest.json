@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.11ad5c74.css",
+    "main.js": "/react-portfolio/static/js/main.a7a2d812.js",
+    "static/media/225067256-18da2d18-2e14-4c9a-86d9-16cfa67c8d00.jpeg": "/react-portfolio/static/media/225067256-18da2d18-2e14-4c9a-86d9-16cfa67c8d00.2fa0bdc7050a65b21e5a.jpeg",
+    "static/media/TechBuilds-HomeScreen-Screenshot.png": "/react-portfolio/static/media/TechBuilds-HomeScreen-Screenshot.fbf6fe6a0ee2284a98ab.png",
+    "static/media/andras-vas-Bd7gNnWJBkU-unsplash (1).jpg": "/react-portfolio/static/media/andras-vas-Bd7gNnWJBkU-unsplash (1).de0bec76b5bbf1cffefe.jpg",
+    "static/media/00023-1911885204-portrait of x___.png": "/react-portfolio/static/media/00023-1911885204-portrait of x___.2aab6ebb9c32a9bafb62.png",
+    "static/media/markus-spiske-cvBBO4PzWPg-unsplash.jpg": "/react-portfolio/static/media/markus-spiske-cvBBO4PzWPg-unsplash.185de50b22dfabce4093.jpg",
+    "static/media/Screenshot 2023-03-08 001631.png": "/react-portfolio/static/media/Screenshot 2023-03-08 001631.6ca9c5f69b879df07671.png",
+    "static/media/Wyckoff, Xander resume1.pdf": "/react-portfolio/static/media/Wyckoff, Xander resume1.458e97e4e8985ddf6843.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.11ad5c74.css.map": "/react-portfolio/static/css/main.11ad5c74.css.map",
+    "main.a7a2d812.js.map": "/react-portfolio/static/js/main.a7a2d812.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11ad5c74.css",
+    "static/js/main.a7a2d812.js"
+  ]
+}
