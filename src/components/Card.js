@@ -1,6 +1,8 @@
+import './pages/css/Card.css'
+
 export default function Card({ cardPic, cardTitle, cardContent, cardLink }) {
     return (
-        <div className="card">
+        <div className="card m-4">
             <img className="card-img-top" src={cardPic} alt="Project preview"></img>
             <div className="card-body bg-dark text-light">
                 <h5 className="card-title">{cardTitle}</h5>
