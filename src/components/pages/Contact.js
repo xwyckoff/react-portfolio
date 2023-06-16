@@ -16,7 +16,7 @@ export default function Contact() {
                     <textarea className="form-control" id="textInput" required></textarea>
                 </div>
                 <div className="col-12 py-3">
-                    <button class="btn btn-outline-dark" type="submit">Submit</button>
+                    <button className="btn btn-outline-dark" type="submit">Submit</button>
                 </div>
             </form>
         </div>
