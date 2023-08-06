@@ -1,8 +1,10 @@
+"use client"
+
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Advent_Pro } from 'next/font/google'
 import Navbar from './components/Navbar'
 
-const inter = Inter({ subsets: ['latin'] })
+const adventpro = Advent_Pro({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Xander Wyckoff',
@@ -12,11 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
-      <body className={`bg-brand-primary`}>
-        <Navbar />
-        {children}
-      </body>
+        <main className={`bg-brand-primary ${adventpro.className}`}>
+          <Navbar />
+            {children}
+        </main>
     </html>
   )
 }
