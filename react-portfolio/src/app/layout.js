@@ -21,7 +21,8 @@ export default function RootLayout({ children }) {
             <div className='sticky top-1/4 right-2/4 mx-auto max-w-xs md:max-w-xl lg:max-w-3xl xl:max-w-5xl z-[-10]'>
               <BackgroundOrbs />
             </div>
-            {pathname == '' ? <Navbar /> : null}
+            {pathname == '/' ? null : <Navbar />}
+            {console.log(pathname)}
             {children}
         </body>
     </html>
