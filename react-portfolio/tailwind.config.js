@@ -13,12 +13,37 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
 
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "scale(1)"
+          },
+
+          "33%": {
+            transform: "scale(1.1)"
+          },
+
+          "66%": {
+            transform: "scale(0.9)"
+          },
+
+          "100%": {
+            transform: "scale(1)"
+          }
+        }
+      },
+
+      animation: {
+        blob: "blob 7s infinite"
+      },
+
       colors: {
         brand: {
-          primary: "#331D2C",
-          secondary: "#3F2E3E",
-          tertiary: "#A78295",
-          text: "#EFE1D1"
+          primary: "#010010",
+          secondary: "#0F0C3D",
+          tertiary: "#4A3FEB",
+          quaternary: "#E0EB3F",
+          text: "#DEDEDE"
         }
       }
     },
