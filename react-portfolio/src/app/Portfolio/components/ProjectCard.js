@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function ProjectCard(props) {
     return (
-        <div className="--portfolio-card max-w-6xl rounded overflow-hidden shadow-lg bg-brand-secondary backdrop-blur-md bg-opacity-50 border border-brand-tertiary">
+        <div className="--portfolio-card max-w-6xl rounded overflow-hidden shadow-lg bg-brand-secondary backdrop-blur-md bg-opacity-50">
             <img
                 className='--card-image w-full'
                 src={props.imgSrc}

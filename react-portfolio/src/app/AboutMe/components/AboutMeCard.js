@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutMeCard(props) {
     return (
-        <div className="--card-div flex justify-around w-2/4 h-full overflow-hidden rounded-lg p-4 bg-brand-secondary backdrop-blur-md bg-opacity-50 gap-7 border border-brand-tertiary">
+        <div className="--card-div flex justify-around w-2/4 h-full overflow-hidden rounded-lg p-4 bg-brand-secondary backdrop-blur-md bg-opacity-50 gap-7 shadow-lg">
             <div>
                 <Image
                     className='rounded-full'

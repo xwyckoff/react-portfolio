@@ -39,10 +39,10 @@ module.exports = {
 
       colors: {
         brand: {
-          primary: "#010010",
-          secondary: "#0F0C3D",
-          tertiary: "#4A3FEB",
-          quaternary: "#E0EB3F",
+          primary: "#000000",
+          secondary: "#37363D",
+          tertiary: "#886A4A",
+          quaternary: "#E3874F",
           text: "#DEDEDE"
         }
       }
