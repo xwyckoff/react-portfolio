@@ -7,8 +7,8 @@ export default function AboutMeCard(props) {
                 <Image
                     className='rounded-full'
                     src="/assets/portrait.png"
-                    width={500}
-                    height={500}
+                    width={800}
+                    height={800}
                     alt="Portrait of Xander"   
                 />
             </div>
