@@ -4,8 +4,9 @@ const isProd = (process.env.NODE_ENV || 'production') === 'production'
 
 const nextConfig = {
     output: 'export',
-    basePath: isProd ? "/react-portfolio" : "",
-    images: { unoptimized: isProd ? true : false }
+    basePath: isProd ? "/react-portfolio" : undefined,
+    images: { unoptimized: isProd ? false : true},
+    assetPrefix: isProd ? "/react-portfolio" : undefined
 }
 
 module.exports = nextConfig
