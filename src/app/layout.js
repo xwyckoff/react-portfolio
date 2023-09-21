@@ -1,5 +1,3 @@
-
-
 import './globals.css'
 import { Advent_Pro } from 'next/font/google'
 import BackgroundOrbs from './components/BackgroundOrbs'
@@ -7,9 +5,11 @@ import Navbar from './components/Navbar'
 
 
 const adventpro = Advent_Pro({ subsets: ['latin'] })
+export const metadata = {
+  title: "Xander Wyckoff's Portfolio"
+}
 
 export default function RootLayout({ children }) {
-
   return (
     <html lang="en">
         <body className={`bg-brand-primary text-brand-text h-screen ${adventpro.className} items-center justify-center`}>
