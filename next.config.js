@@ -6,7 +6,8 @@ const nextConfig = {
     output: 'export',
     basePath: isProd ? "/react-portfolio" : undefined,
     images: { unoptimized: isProd ? false : true},
-    assetPrefix: isProd ? "/react-portfolio" : undefined
+    assetPrefix: isProd ? "/react-portfolio" : undefined,
+    prefetch: false
 }
 
 module.exports = nextConfig
