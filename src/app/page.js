@@ -17,7 +17,7 @@ export default function Home() {
           y: 0
         }
       }}>Hi. My name is Xander.</motion.h1>
-      <Link href="/AboutMe"><button onClick={() => window.location.href="/AboutMe"}className='transition duration-300 bg-brand-secondary hover:bg-brand-tertiary hover:scale-110 text-3xl p-3 my-5 rounded-xl'>About Me</button></Link>
+      <Link href="/AboutMe"><button className='transition duration-300 bg-brand-secondary hover:bg-brand-tertiary hover:scale-110 text-3xl p-3 my-5 rounded-xl'>About Me</button></Link>
     </main>
   )
 }
