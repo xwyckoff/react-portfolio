@@ -1,6 +1,7 @@
 "use client"
 import AboutMeCard from "./components/AboutMeCard";
 import { motion } from "framer-motion";
+import Head from 'next/head';
 
 export default function AboutMe() {
     return (
