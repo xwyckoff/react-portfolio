@@ -13,7 +13,7 @@ export default function Portfolio() {
 
     return (
         <main className='flex justify-center p-8'>
-            <div className='grid sm:grid-cols-1 lg:grid-cols-2 gap-10'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2 sm: gap-5 lg:gap-10'>
                 {projects.map((project, i) => (
                     <motion.div key={project.key} initial="hidden" animate="visible" variants={{
                         hidden: {

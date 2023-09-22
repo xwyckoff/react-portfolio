@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-center items-center p-24 text-brand-text">
-      <motion.h1 className="xl:text-9xl lg:text-8xl md:text-6xl sm:text-5xl" initial="hidden" animate="visible" variants={{
+      <motion.h1 className="text-3xl xl:text-9xl lg:text-8xl md:text-6xl sm:text-5xl" initial="hidden" animate="visible" variants={{
         hidden: {
           opacity: 0,
           y: -100
